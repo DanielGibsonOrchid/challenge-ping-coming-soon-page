@@ -1,0 +1,190 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #969696;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.logo {
+    margin-top: 4rem;
+}
+
+h1 span {
+    color: #141e28;
+    font-weight: 700;
+}
+
+.subscribe-text {
+    color: #141e28;
+}
+
+.flex-input-1 {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.submit {
+    color: #fff;
+    background: #4e7df2;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 17px;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.7rem 2.6rem;
+    box-shadow: 0 0 3px 0 #4e7df2bf;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 2rem;
+}
+
+.submit:hover {
+    background: #c1d3fe;
+}
+
+.submit:focus {
+    outline: 0;
+}
+
+.email {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 17px;
+    color: #141e28;
+    font-weight: 300;
+    border-radius: 2rem;
+    padding: 0.7rem 1rem;
+    border: 1px solid #d8d8d8;
+    width: 20rem;
+    margin: 0 0.5rem 0 0;
+}
+
+.email:focus {
+    outline: 0;
+}
+
+.email::placeholder {
+    color: #d8d8d8;
+}
+
+.error-msg {
+    color: #ff5162;
+    font-size: 13px;
+    font-style: italic;
+    visibility: hidden;
+    padding-left: 1rem;
+}
+
+.graph {
+    width: 32rem;
+    padding-top: 5rem;
+}
+
+footer p {
+    font-size: 11px;
+}
+
+.social {
+    text-align: center;
+    padding: 3rem 0 1rem;
+}
+
+.fab {
+    color: #4e7df2;
+    font-size: 16px;
+    border: 1px solid #d8d8d8;
+    border-radius: 5rem;
+}
+
+.fab:hover {
+    color: #fff;
+    background: #4e7df2;
+}
+
+.fa-twitter {
+    padding: 0.3rem;
+    margin: 0 0.5rem;
+}
+
+.fa-facebook-f {
+    padding: 0.3rem 0.45rem;
+}
+
+.fa-instagram {
+    padding: 0.3rem 0.38rem;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 660px) {
+    .flex-input-1 {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .flex-input-2 {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 1rem;
+    }
+
+    .submit {
+        padding: 1rem 2.6rem;
+    }
+
+    .email {
+        padding: 1rem 1rem 1rem 2.5rem;
+        margin: 0;
+        width: 13rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
+
+    .graph {
+        width: 17rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+
+    .fab {
+        font-size: 26px;
+    }
+
+    .fa-facebook-f {
+        padding: 0.5rem 0.8rem;
+    }
+
+    .fa-twitter {
+        padding: 0.5rem;
+    }
+
+    .fa-instagram {
+        padding: 0.5rem 0.6rem;
+    }
+
+    .attribution {
+        font-size: 14px;
+    }
+}
